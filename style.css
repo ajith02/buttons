@@ -1,0 +1,71 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat:wght@500&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: #f6f9fd;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(233, 233, 233);
+}
+
+/* common styles */
+button {
+  border: none;
+  padding: 12px 18px;
+  margin: 0px 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.pair {
+  padding: 20px;
+}
+
+/* common images style */
+img {
+  vertical-align: middle;
+}
+
+/* button 1 style */
+.img1 {
+  padding-left: 15px;
+  height: 10px;
+}
+.btn1 {
+  background-color: #f6f9fd;
+  border: 1px solid #0a73c0;
+  color: #0a73c0;
+}
+
+/* button 2 style */
+.img2 {
+  height: 30px;
+}
+.btn2 {
+  background-color: red;
+  color: white;
+  padding: 6px 14px 4px 14px;
+  border-radius: 5px;
+}
+
+/* button 3 style */
+.btn3 {
+  background-color: #1778f2;
+  border-radius: 30px;
+  padding: 12px 32px;
+  color: white;
+  margin-top: 25px;
+}
+
+/* button 4 style */
+.btn4 {
+  padding: 12px 32px;
+  margin-left: 5px;
+}
+.btn4:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+}
